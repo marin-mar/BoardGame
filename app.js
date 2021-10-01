@@ -18,8 +18,8 @@ function fillBoard() {
     "#6B705C",
   ];
 
-  const boardWidth = Math.floor(board.clientWidth / 20);
-  const boardHeight = Math.floor(board.clientHeight / 20);
+  const boardWidth = Math.floor(board.clientWidth / 30);
+  const boardHeight = Math.floor(board.clientHeight / 30);
   const boardBox = boardWidth * boardHeight;
 
   let count = (from = 0);
