@@ -35,7 +35,7 @@ function fillBoard() {
       }
     });
 
-    square.addEventListener("mousemove", () => setColor(square));
+//     square.addEventListener("mousemove", () => setColor(square));
 
     square.addEventListener("mouseleave", () => removeColor(square));
 
